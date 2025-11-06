@@ -1,40 +1,82 @@
-.inicio__fondo{
+body{
+    margin: 0;
     background-image: url("https://images.pexels.com/photos/2083177/pexels-photo-2083177.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
 }
-.header__inicio{
-    display: flex; 
-    align-items: center;
-    background-color: black;
-    width: 100%;
-    height: 150px;
-    justify-content: space-between;
+.inicio__fondo{
+    background-color: rgba(87, 86, 86, 0.612);
 }
-.foto{
-    height: 150px;
-    width: 200px;
+.header__inicio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: black;
+  color: white;
+  padding: 20px;
+  gap: 20px;
+  height: 75px;
 }
-.header__inicio--titulo{
-    color: white;
-    justify-content: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.foto {
+  width: 100px;
+  border-radius: 10px;
+}
+.header__inicio--titulo {
+  font-size: 2.5rem;
+  letter-spacing: 3px;
 }
 .distribuir__espacio{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
 }
 .texto__introducción{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(218, 36, 4);
-    color: black;
-    width: 220px;
-    height: 300px;
+    background-color: rgba(0, 0, 0, 0.829);
+    color: rgb(255, 255, 255);
+    width: 285px;
+    height: 175px;
     padding: 50px;
 }
 .mapa{
     height: 450px;
-    padding: 20px 20px 20px 0px;
+    padding: 20px 20px 20px 20px;
+}
+.distribuir__espacio--textos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10px 10px 10px;
+}
+.boton__comenzar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+  margin: 50px auto;
+}
+
+.boton__comenzar--texto {
+
+  max-width: 300px;
+  padding: 20px;
+  font-size: 20px;
+  background: #7a1f1f;
+  border: 3px solid #a22;
+  color: #fff;
+  border-radius: 15px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.boton__comenzar--texto:hover {
+  background: #a22;
+}
+.texto__introducción--animo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }

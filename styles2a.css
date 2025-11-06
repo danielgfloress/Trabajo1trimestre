@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: #111;
+  color: #f5f5f5;
+  text-align: center;
+}
+
+/* HEADER */
+.headerinicio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(90deg, #111, #333);
+  padding: 20px;
+  gap: 20px;
+}
+
+.headerinicio img {
+  width: 100px;
+  border-radius: 10px;
+}
+
+.headerinicio--titulo {
+  font-size: 2.5rem;
+  letter-spacing: 3px;
+}
+
+/* CUADROS */
+.cuadro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: 30px auto;
+  padding: 30px;
+  background: #222;
+  border: 3px solid #a22;
+  border-radius: 15px;
+  box-shadow: 0 0 15px #a22;
+}
+
+.cuadro h2,
+.cuadro p {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+/* CONTENEDOR DE PELIGROS */
+.contenedor-peligros {
+  width: 85%;
+  margin: 40px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 25px;
+  padding: 20px;
+}
+
+/* TARJETAS DE PELIGROS */
+.peligro {
+  background: #222;
+  border: 2px solid #a22;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 0 10px #a22;
+  transition: transform 0.3s;
+}
+
+.peligro:hover {
+  transform: scale(1.05);
+}
+
+.peligro img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-bottom: 2px solid #a22;
+}
+
+.peligro h3 {
+  margin: 15px 0;
+  font-size: 1.2rem;
+}

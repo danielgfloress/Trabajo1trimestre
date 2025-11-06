@@ -81,3 +81,39 @@ body {
   margin: 15px 0;
   font-size: 1.2rem;
 }
+
+/* BOTONES DE ACCIÓN */
+.botones-accion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  margin: 50px auto;
+}
+
+.btn {
+  flex: 1;
+  max-width: 300px;
+  padding: 20px;
+  font-size: 1.1rem;
+  background: #7a1f1f;
+  border: 3px solid #a22;
+  color: #fff;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background: #a22;
+  transform: scale(1.05);
+}
+
+/* Colocación de botones */
+.izquierda {
+  align-self: flex-start;
+}
+
+.derecha {
+  align-self: flex-end;
+}

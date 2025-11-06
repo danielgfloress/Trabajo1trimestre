@@ -1,3 +1,5 @@
 .inicio__fondo{
-    background-image: url("");
+    background-image: url("https://images.pexels.com/photos/2083177/pexels-photo-2083177.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }

@@ -1,9 +1,11 @@
 body{
     margin: 0;
+    padding: 0;
     background-image: url("https://sm.ign.com/t/ign_es/screenshot/default/winterfell-wallpaper_pu65.1280.png");
     background-repeat: none;
     background-size: cover;
     backdrop-filter: brightness(50%);
+    overflow-x: hidden;
 }
 .header__inicio {
     display: flex;
@@ -31,6 +33,17 @@ body{
     height: 100vh;
     align-items: center;
     font-family: "Book Antiqua", "Palatino Linotype", Palatino, serif;
+}
+
+.cap1__dragon{
+    position: absolute;
+    left: 80%;
+    overflow: hidden;
+}
+
+.cap1__dragon img{
+    width: 200px;
+    cursor: pointer;
 }
 
 .cap1__box{

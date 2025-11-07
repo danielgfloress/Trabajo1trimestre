@@ -134,16 +134,19 @@ body {
 
 /* CAJA ENTRE BOTONES */
 .eleccion {
-  background: rgba(30, 33, 40, 0.9);
-  padding: 15px 25px;
-  border: 2px solid #5a5f66;
-  border-radius: 10px;
-  color: #f5f5f5;
-  font-size: 22px;
-  text-align: center;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  white-space: nowrap;
-  transition: background-color 0.3s ease, transform 0.5s ease;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 2px solid #d4af37;
+  color: #f8f8f8;
+  font-weight: bold;
+  font-size: 1.15em;
+  cursor: default;
+  text-shadow: 2px 2px 4px #000;
+  pointer-events: none; 
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(212, 175, 55, 0.4);
+  align-items: center;
+  height: 50px;
 }
 .eleccion:hover {
   background: #b89a67;

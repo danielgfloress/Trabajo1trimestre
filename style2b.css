@@ -1,0 +1,142 @@
+body {
+  font-family: 'Trajan Pro', 'Times New Roman', serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #f0f0f0;
+  background: url('https://pm1.aminoapps.com/6551/ea33043c566ac6b742184645092b2e20f7a181e9_hq.jpg') no-repeat center center fixed;
+  background-size: cover;
+  backdrop-filter: brightness(70%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.headerinicio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(90deg, #111, #333);
+  padding: 20px;
+  gap: 20px;
+}
+
+.headerinicio img {
+  width: 100px;
+  border-radius: 10px;
+}
+
+.headerinicio--titulo {
+  font-size: 2.5rem;
+  letter-spacing: 3px;
+  color: white;
+}
+
+
+.titulo__frase {
+  font-style: italic;
+  font-size: 1.3em;
+  color: #e0e0e0;
+  text-shadow: 1px 1px 3px #000;
+  margin-top: 20px;
+}
+
+.peligros__seccion {
+  width: 90%;
+  max-width: 1100px;
+  margin: 40px auto 0;
+  background-color: rgba(0,0,0,0.75);
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.6);
+  padding: 20px;
+}
+
+.peligros__titulo {
+  margin: 0 0 20px;
+  color: #fff;
+  text-shadow: 1px 1px 3px #000;
+  font-size: 1.5em;
+}
+
+.peligros__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 22px;
+  justify-items: center;
+  align-items: start;
+}
+
+.peligro {
+  background-color: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 10px;
+  padding: 10px;
+  width: 100%;
+  max-width: 220px;
+  transition: transform 0.25s ease, background-color 0.25s ease;
+}
+
+.peligros__img {
+  width: 100%;
+  border-radius: 8px;
+  height: 140px;
+  object-fit: cover;
+}
+
+.peligros__nombre {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #fff;
+  font-size: 0.95rem;
+  text-shadow: 1px 1px 2px #000;
+}
+
+.peligro:hover {
+  transform: translateY(-6px) scale(1.02);
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.caminos {
+  padding: 80px 20px;
+}
+
+
+.caminos__contenido {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.caminos__boton {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 2px solid #e0e0e0;
+  color: #ffffff;
+  padding: 18px 40px;
+  font-size: 1.1em;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.5s ease;
+  text-shadow: 1px 1px 3px #000;
+  text-decoration: none;
+}
+
+.caminos__botoncentral {
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 2px solid #d4af37;
+  color: #f8f8f8;
+  font-weight: bold;
+  font-size: 1.15em;
+  cursor: default;
+  text-shadow: 2px 2px 4px #000;
+  pointer-events: none; 
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(212, 175, 55, 0.4);
+}
+
+
+.caminos__boton:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  transform: translateY(-10px);
+}
+

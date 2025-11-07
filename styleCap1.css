@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("https://sm.ign.com/t/ign_es/screenshot/default/winterfell-wallpaper_pu65.1280.png");
+    background-repeat: none;
+    background-size: cover;
+    backdrop-filter: brightness(50%);
+    overflow-x: hidden;
+}
+.header__inicio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, #111, #333);
+    padding: 20px;
+    gap: 20px;
+}
+
+.header__inicio img {
+    width: 100px;
+    border-radius: 10px;
+}
+
+.header__inicio--titulo {
+    font-size: 2.5rem;
+    letter-spacing: 3px;
+    color: white;
+}
+
+.cap1{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    font-family: "Book Antiqua", "Palatino Linotype", Palatino, serif;
+}
+
+.cap1__dragon{
+    position: absolute;
+    left: 80%;
+    overflow: hidden;
+}
+
+.cap1__dragon img{
+    width: 200px;
+    cursor: pointer;
+}
+
+.cap1__box{
+    background-color: rgba(64, 64, 64, 0.499);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    padding: 15px;
+    border-radius: 15px;
+    width: 80%;
+    height: 200px;
+    border: 3px solid rgb(62, 62, 62);
+}
+
+.cap1__box-titulo{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.666);
+    color: white;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 70px;
+    font-size: 25px;
+}
+
+.cap1__box-texto{
+    width: 350px;
+    font-size: 20px;
+    color: rgb(196, 196, 196);
+    text-align: center;
+}
+
+.cap1__opciones-1{
+    display: flex;
+    justify-content: center;
+    gap: 30%;
+    align-items: center;
+    width: 85%;
+    margin-top: 100px;
+}
+
+.opcion{
+    max-width: 300px;
+    padding: 20px;
+    font-size: 1.1rem;
+    background: rgb(133, 25, 25);
+    border: 3px solid rgb(204, 10, 10);
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.5s ease;
+}
+.opcion:hover{
+    background-color:rgb(161, 15, 15);
+    transform: translateY(-10px);
+}

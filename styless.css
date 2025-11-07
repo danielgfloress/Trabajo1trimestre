@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    background-image: url("https://images.pexels.com/photos/2083177/pexels-photo-2083177.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.inicio__fondo{
+    background-color: rgba(87, 86, 86, 0.612);
+}
+.header__inicio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: black;
+  color: white;
+  padding: 20px;
+  gap: 20px;
+  height: 75px;
+}
+.foto {
+  width: 100px;
+  border-radius: 10px;
+}
+.header__inicio--titulo {
+  font-size: 2.5rem;
+  letter-spacing: 3px;
+}
+.distribuir__espacio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.texto__introducción{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.829);
+    color: rgb(255, 255, 255);
+    width: 285px;
+    height: 175px;
+    padding: 50px;
+    border-radius: 10px;
+}
+.mapa{
+    height: 450px;
+    padding: 20px;
+}
+.distribuir__espacio--textos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10px 10px 10px;
+}
+.boton__comenzar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+  margin: 50px auto;
+  transition: 0,5s;
+}
+
+.boton__comenzar--texto {
+
+  max-width: 300px;
+  padding: 20px;
+  font-size: 20px;
+  background: #7a1f1f;
+  border: 3px solid #a22;
+  color: #fff;
+  border-radius: 15px;
+  cursor: pointer;
+  text-decoration: none;
+  
+}
+
+.boton__comenzar--texto:hover {
+  background: #a22;
+  transform: translateY(-5px);
+}
+.texto__introducción--animo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

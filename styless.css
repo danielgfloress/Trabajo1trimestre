@@ -3,10 +3,19 @@ body{
     background-image: url("https://images.pexels.com/photos/2083177/pexels-photo-2083177.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
+<<<<<<< HEAD
     backdrop-filter: brightness(50%);
     height: auto;
 }
 
+=======
+    backdrop-filter: brightness(40%);
+    height: 100%;
+}
+.inicio__fondo{
+    height: 100vh;
+}
+>>>>>>> intentoarreglocss2
 .header__inicio {
   display: flex;
   align-items: center;

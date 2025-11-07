@@ -30,6 +30,8 @@ body{
 .distribuir__espacio{
     display: flex;
     align-items: center;
+    justify-content: center;
+    gap: 50px;
     padding: 10px;
 }
 .texto__introducción{

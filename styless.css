@@ -3,9 +3,11 @@ body{
     background-image: url("https://images.pexels.com/photos/2083177/pexels-photo-2083177.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
+    backdrop-filter: brightness(40%);
+    height: 100%;
 }
 .inicio__fondo{
-    background-color: rgba(87, 86, 86, 0.612);
+    height: 100vh;
 }
 .header__inicio {
   display: flex;

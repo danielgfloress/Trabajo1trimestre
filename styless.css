@@ -60,6 +60,7 @@ body{
   align-items: center;
   width: 85%;
   margin: 50px auto;
+  transition: 0,5s;
 }
 
 .boton__comenzar--texto {
@@ -73,10 +74,12 @@ body{
   border-radius: 15px;
   cursor: pointer;
   text-decoration: none;
+  
 }
 
 .boton__comenzar--texto:hover {
   background: #a22;
+  transform: translateY(-5px);
 }
 .texto__introducción--animo{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;

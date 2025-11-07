@@ -41,10 +41,11 @@ body{
     width: 285px;
     height: 175px;
     padding: 50px;
+    border-radius: 10px;
 }
 .mapa{
     height: 450px;
-    padding: 20px 20px 20px 20px;
+    padding: 20px;
 }
 .distribuir__espacio--textos{
     display: flex;

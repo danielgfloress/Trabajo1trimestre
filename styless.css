@@ -3,19 +3,12 @@ body{
     background-image: url("https://images.pexels.com/photos/2083177/pexels-photo-2083177.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
-<<<<<<< HEAD
-    backdrop-filter: brightness(50%);
-    height: auto;
-}
-
-=======
     backdrop-filter: brightness(40%);
     height: 100%;
 }
 .inicio__fondo{
     height: 100vh;
 }
->>>>>>> intentoarreglocss2
 .header__inicio {
   display: flex;
   align-items: center;
@@ -37,7 +30,6 @@ body{
 .distribuir__espacio{
     display: flex;
     align-items: center;
-    justify-content: center;
     padding: 10px;
 }
 .texto__introducción{
@@ -53,8 +45,10 @@ body{
     border-radius: 10px;
 }
 .mapa{
-    height: 450px;
-    padding: 20px;
+    width: 39vh;
+    margin-top: 10px;
+    margin-left: 40px;
+
 }
 .distribuir__espacio--textos{
     display: flex;
@@ -62,6 +56,7 @@ body{
     justify-content: center;
     align-items: center;
     padding: 30px 10px 10px 10px;
+    
 }
 .boton__comenzar {
   display: flex;
@@ -78,16 +73,16 @@ body{
   padding: 20px;
   font-size: 20px;
   background: #7a1f1f;
-  border: 3px solid #a22;
+  border: 3px solid rgb(212, 30, 30);
   color: #fff;
   border-radius: 15px;
   cursor: pointer;
   text-decoration: none;
-  
+  transition: background-color 0.3s ease, transform 0.5s ease;
 }
 
 .boton__comenzar--texto:hover {
-  background: #a22;
+  background-color: rgb(120, 16, 16);
   transform: translateY(-5px);
 }
 .texto__introducción--animo{

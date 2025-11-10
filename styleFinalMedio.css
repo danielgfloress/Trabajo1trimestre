@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    /* padding: 0;
+    background-image: url("");
+    background-repeat: none;
+    background-size: cover;
+    backdrop-filter: brightness(50%);
+    overflow-x: hidden; */
+}
+.header__inicio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(90deg, #111, #333);
+  padding: 20px;
+  gap: 20px;
+}
+
+.header__inicio img {
+  width: 100px;
+  border-radius: 10px;
+}
+
+.header__inicio--titulo {
+  font-size: 2.5rem;
+  letter-spacing: 3px;
+  color: white;
+}

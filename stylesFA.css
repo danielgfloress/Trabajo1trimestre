@@ -46,3 +46,69 @@ body{
     justify-content: center;
     padding: 10px;
 }
+.opciones__grid{
+  display: grid;
+  grid-template-columns: repeat(2,400px);
+  grid-template-rows: repeat(2,200px);
+  grid-column-gap: 30px;
+  grid-row-gap: 10px;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.opciones__grid--color {
+  color: red;
+  font-size: 50px;
+}
+.opcion{
+  grid-area: 1/1/2/3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border:3px solid red ;
+  border-radius: 10px;
+}
+.opcion1{
+  grid-area: 2/1/3/2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease, transform 0.5s ease;
+  border: 3px solid orange;
+  font-size: 35px;
+  cursor: pointer;
+  background-color: rgb(120, 16, 16);
+  border-radius: 10px;
+  text-decoration: none;
+  border-color: orange;
+  padding: 20px;
+}
+.opcion2{
+  grid-area: 2/2/3/3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.5s ease;
+  font-size: 35px;
+  cursor: pointer;
+  background-color: rgb(120, 16, 16);
+  border-radius: 10px;
+  border: 3px solid orange;
+  padding: 20px;
+}
+.texto{
+  text-decoration: none;
+  color: green;
+}
+.opcion1:hover{
+  background-color: rgb(193, 2, 2);
+  transform: translateY(-5px);
+}
+.opcion2:hover{
+  background-color: rgb(193, 2, 2);
+
+  transform: translateY(-5px);
+}

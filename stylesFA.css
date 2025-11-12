@@ -101,7 +101,7 @@ body{
 }
 .texto{
   text-decoration: none;
-  color: green;
+  color: orange;
 }
 .opcion1:hover{
   background-color: rgb(193, 2, 2);

@@ -33,11 +33,11 @@ body{
     justify-content: center;
     align-items: center;
     padding: 20px;
-    font-size: 65px;
+    font-size: 57px;
 }
 .contenido__pagina--imagen{
-    width: 1000px;
-    height: 600px;
+    width: 700px;
+    height: 400px;
 }
 .contenido__pagina{
     display: flex;

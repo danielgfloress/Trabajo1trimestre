@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    background-image: url("https://lossietereinos.com/wp-content/uploads/2019/05/juego-de-tronos-drogon-desembarco.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: brightness(40%);
+    height: 100%;
+    font-family: "Book Antiqua", "Palatino Linotype", Palatino, serif ;
+}
+.inicio__fondo{
+    height: 100vh;
+}
+.header__inicio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: black;
+  color: white;
+  padding: 20px;
+  gap: 20px;
+  height: 75px;
+}
+.foto {
+  width: 100px;
+  border-radius: 10px;
+}
+.header__inicio--titulo {
+  letter-spacing: 3px;
+  font-size: 50px;
+}
+.box__principal{
+    display: flex;
+}

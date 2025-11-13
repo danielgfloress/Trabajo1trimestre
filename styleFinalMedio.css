@@ -1,11 +1,11 @@
 body{
-    margin: 0;
-    /* padding: 0;
-    background-image: url("");
-    background-repeat: none;
-    background-size: cover;
-    backdrop-filter: brightness(50%);
-    overflow-x: hidden; */
+  margin: 0;
+  padding: 0;
+  background-image: url("https://lahistoriatraseltrono.wordpress.com/wp-content/uploads/2016/11/1.jpg");
+  background-repeat: none;
+  background-size: cover;
+  backdrop-filter: brightness(50%);
+  overflow-x: hidden;
 }
 .header__inicio {
   display: flex;
@@ -25,4 +25,68 @@ body{
   font-size: 2.5rem;
   letter-spacing: 3px;
   color: white;
+}
+
+.final {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  font-family: "Book Antiqua", "Palatino Linotype", Palatino, serif;
+}
+
+.final__texto {
+  background-color: gray;
+  margin: 20px;
+  border-radius: 10px;
+  border: solid, black;
+  padding: 5px;
+  font-size: 25px;
+}
+
+.final__imagen {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end; 
+  padding-bottom: 10px;              
+  text-align: center;
+  border-radius: 15px;
+  border: solid, rgba(57, 57, 57, 0.878) ;
+  background-image: url("https://luciasecasa.com/wp-content/uploads/2022/02/bodas-juego-de-tronos-7.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 450px;
+  width: 650px;
+}
+.final__imagen p {
+  background-color: rgba(48, 48, 48, 0.822);
+  color: rgb(167, 167, 167);
+  border-radius: 10px;
+  border: solid, black;
+  padding: 5px;
+  width: 250px;
+  font-size: 20px;
+}
+
+.final__boton {
+  position: relative;
+  left: 400px;
+  top: 20px;
+  max-width: 300px;
+  padding: 20px;
+  font-size: 1.1rem;
+  background: rgb(138, 132, 80);
+  border: 3px solid rgb(105, 85, 12);
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.5s ease;
+}
+.final__boton a{
+  text-decoration: none;
+  color: rgb(51, 51, 51);
+}
+
+.final__boton:hover{
+  background-color:rgb(126, 111, 0);
+  transform: translateY(-10px);
 }

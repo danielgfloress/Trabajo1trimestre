@@ -41,7 +41,7 @@ body{
   border-radius: 10px;
   border: solid, black;
   padding: 5px;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .final__imagen {
@@ -55,8 +55,8 @@ body{
   background-image: url("https://luciasecasa.com/wp-content/uploads/2022/02/bodas-juego-de-tronos-7.jpg");
   background-position: center;
   background-size: cover;
-  height: 450px;
-  width: 650px;
+  height: 350px;
+  width: 600px;
 }
 .final__imagen p {
   background-color: rgba(48, 48, 48, 0.822);

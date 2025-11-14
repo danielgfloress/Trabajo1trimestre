@@ -4,7 +4,6 @@ body{
   background-image: url("https://lahistoriatraseltrono.wordpress.com/wp-content/uploads/2016/11/1.jpg");
   background-repeat: none;
   background-size: cover;
-  backdrop-filter: brightness(50%);
   overflow-x: hidden;
 }
 .header__inicio {
@@ -29,22 +28,30 @@ body{
 
 .final {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 100vh;
-  font-family: "Book Antiqua", "Palatino Linotype", Palatino, serif;
+  justify-content: center;
 }
 
-.final__texto {
-  background-color: gray;
+.final__box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 700px;
+  height: 580px;
+  background-color: rgba(66, 66, 66, 0.755);
   margin: 20px;
   border-radius: 10px;
   border: solid, black;
+  font-family: "Book Antiqua", "Palatino Linotype", Palatino, serif;
+}
+
+.final__box-texto {
+  color:  rgb(167, 167, 167);
+  margin: 20px;
   padding: 5px;
   font-size: 20px;
 }
 
-.final__imagen {
+.final__box-imagen {
   display: flex;
   justify-content: center;
   align-items: flex-end; 
@@ -58,7 +65,7 @@ body{
   height: 350px;
   width: 600px;
 }
-.final__imagen p {
+.final__box-imagen p {
   background-color: rgba(48, 48, 48, 0.822);
   color: rgb(167, 167, 167);
   border-radius: 10px;
@@ -68,25 +75,25 @@ body{
   font-size: 20px;
 }
 
-.final__boton {
+.final__box-boton {
   position: relative;
-  left: 400px;
-  top: 20px;
+  left: 225px;
+  margin-top: 20px;
   max-width: 300px;
   padding: 20px;
   font-size: 1.1rem;
-  background: rgb(138, 132, 80);
+  background: rgb(108, 101, 39);
   border: 3px solid rgb(105, 85, 12);
   border-radius: 15px;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.5s ease;
 }
-.final__boton a{
+.final__box-boton a{
   text-decoration: none;
-  color: rgb(51, 51, 51);
+  color: rgb(198, 198, 198);
 }
 
-.final__boton:hover{
+.final__box-boton:hover{
   background-color:rgb(126, 111, 0);
   transform: translateY(-10px);
 }

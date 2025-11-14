@@ -1,4 +1,3 @@
-/* Fondo y tipografía */
 body {
   font-family: 'Arial', sans-serif;
   background: url('https://lossietereinos.com/wp-content/uploads/2019/05/TYRION-juego-de-tronos-8x05.jpg') no-repeat center center fixed;
@@ -8,7 +7,6 @@ body {
   padding: 0;
 }
 
-/* Cabecera (igual que original) */
 .header__inicio {
   text-align: center;
   background-color: rgba(0,0,0,0.7);
@@ -27,7 +25,6 @@ body {
   margin-top: 10px;
 }
 
-/* Historia destacada */
 .historia-evento {
   max-width: 800px;
   margin: 40px auto;
@@ -43,7 +40,6 @@ body {
   margin-bottom: 15px;
 }
 
-/* Galería alternada */
 .galeria-evento {
   display: flex;
   flex-direction: column;
@@ -80,7 +76,6 @@ body {
   color: #ff5500;
 }
 
-/* Botones centrados debajo de la galería */
 .botones-accion {
   display: flex;
   justify-content: center;

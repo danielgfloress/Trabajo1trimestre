@@ -1,0 +1,99 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url("https://lahistoriatraseltrono.wordpress.com/wp-content/uploads/2016/11/1.jpg");
+  background-repeat: none;
+  background-size: cover;
+  overflow-x: hidden;
+}
+.header__inicio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(90deg, #111, #333);
+  padding: 20px;
+  gap: 20px;
+}
+
+.header__inicio img {
+  width: 100px;
+  border-radius: 10px;
+}
+
+.header__inicio--titulo {
+  font-size: 2.5rem;
+  letter-spacing: 3px;
+  color: white;
+}
+
+.final {
+  display: flex;
+  justify-content: center;
+}
+
+.final__box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 700px;
+  height: 580px;
+  background-color: rgba(66, 66, 66, 0.755);
+  margin: 20px;
+  border-radius: 10px;
+  border: solid, black;
+  font-family: "Book Antiqua", "Palatino Linotype", Palatino, serif;
+}
+
+.final__box-texto {
+  color:  rgb(167, 167, 167);
+  margin: 20px;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.final__box-imagen {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end; 
+  padding-bottom: 10px;              
+  text-align: center;
+  border-radius: 15px;
+  border: solid, rgba(57, 57, 57, 0.878) ;
+  background-image: url("https://luciasecasa.com/wp-content/uploads/2022/02/bodas-juego-de-tronos-7.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 350px;
+  width: 600px;
+}
+.final__box-imagen p {
+  background-color: rgba(48, 48, 48, 0.822);
+  color: rgb(167, 167, 167);
+  border-radius: 10px;
+  border: solid, black;
+  padding: 5px;
+  width: 250px;
+  font-size: 20px;
+}
+
+.final__box-boton {
+  position: relative;
+  left: 225px;
+  margin-top: 20px;
+  max-width: 300px;
+  padding: 20px;
+  font-size: 1.1rem;
+  background: rgb(108, 101, 39);
+  border: 3px solid rgb(105, 85, 12);
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.5s ease;
+}
+.final__box-boton a{
+  text-decoration: none;
+  color: rgb(198, 198, 198);
+}
+
+.final__box-boton:hover{
+  background-color:rgb(126, 111, 0);
+  transform: translateY(-10px);
+}

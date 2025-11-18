@@ -1,10 +1,13 @@
 body{
     margin: 0;
-    background-image: url("https://media.revistagq.com/photos/5ce7c7e79d80fc18ede33d84/master/pass/daenerys.jpg");
+    background-image: url("https://images.pexels.com/photos/2083177/pexels-photo-2083177.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
+    backdrop-filter: brightness(40%);
+    height: 100%;
+}
+.inicio__fondo{
     height: 100vh;
-    font-family: "Book Antiqua", "Palatino Linotype", Palatino, serif ;
 }
 .header__inicio {
   display: flex;
@@ -21,7 +24,7 @@ body{
   border-radius: 10px;
 }
 .header__inicio--titulo {
-  font-size: 50px;
+  font-size: 40px;
 }
 .opciones {
   display: flex;
@@ -36,14 +39,14 @@ body{
   background: rgba(35, 35, 35, 0.75);
   border-radius: 18px;
   overflow: hidden;
-  border: 2px solid #b38b33;
+  border: 2px solid #00ffff;
   box-shadow: 0 0 20px rgba(0,0,0,0.7);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .tarjeta:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 30px rgba(179,139,51,0.7);
+  box-shadow: 0 0 30px rgba(0, 223, 253, 0.7);
 }
 
 .tarjeta img {
@@ -55,7 +58,7 @@ body{
 .tarjeta h2 {
   text-align: center;
   margin: 15px 0 5px;
-  font-size: 1.5rem;
+  font-size: 24px;
 }
 
 .tarjeta p {
@@ -63,9 +66,10 @@ body{
   margin: 0 15px 20px;
   opacity: 0.9;
 }
+
 .btn {
   display: block;
-  background: #b38b33;
+  background: #3c6ed8;
   color: #1a1a1a;
   text-align: center;
   padding: 12px;
@@ -73,10 +77,10 @@ body{
   border-radius: 10px;
   text-decoration: none;
   font-weight: bold;
-  transition: background 0.3s, transform 0.3s;
+  transition: 0.3s, transform 0.3s;
 }
 
 .btn:hover {
-  background: #d4af37;
+  background: #0888ba;
   transform: translateY(-5px);
 }

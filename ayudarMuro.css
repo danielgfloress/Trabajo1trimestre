@@ -1,14 +1,12 @@
 body{
     margin: 0;
-    background-image: url("https://images.pexels.com/photos/2083177/pexels-photo-2083177.jpeg");
+    background-image: url("https://fotografias.antena3.com/clipping/cmsimages01/2015/11/09/A26E9373-6C8C-420F-971A-27C72B88934F/98.jpg?crop=1024,576,x0,y57&width=1900&height=1069&optimize=high&format=webply");
     background-repeat: no-repeat;
     background-size: cover;
     backdrop-filter: brightness(40%);
-    height: 100%;
-}
-.inicio__fondo{
     height: 100vh;
 }
+
 .header__inicio {
   display: flex;
   align-items: center;
@@ -36,7 +34,8 @@ body{
 
 .tarjeta {
   width: 330px;
-  background: rgba(35, 35, 35, 0.75);
+  background: rgb(0, 0, 0);
+  color: white;
   border-radius: 18px;
   overflow: hidden;
   border: 2px solid #00ffff;
@@ -70,7 +69,7 @@ body{
 .btn {
   display: block;
   background: #3c6ed8;
-  color: #1a1a1a;
+  color: white;
   text-align: center;
   padding: 12px;
   margin: 0 40px 20px;

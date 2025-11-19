@@ -37,6 +37,7 @@ body{
   background: rgb(0, 0, 0);
   color: white;
   border-radius: 18px;
+  margin-top: 130px;
   overflow: hidden;
   border: 2px solid #00ffff;
   box-shadow: 0 0 20px rgba(0,0,0,0.7);
@@ -63,7 +64,6 @@ body{
 .tarjeta p {
   text-align: center;
   margin: 0 15px 20px;
-  opacity: 0.9;
 }
 
 .btn {

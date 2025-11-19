@@ -34,10 +34,11 @@ body{
 .tarjeta {
   width: 330px;
   background: rgba(35, 35, 35, 0.75);
+  color: antiquewhite;
   border-radius: 18px;
   overflow: hidden;
   border: 2px solid #b38b33;
-  box-shadow: 0 0 20px rgba(0,0,0,0.7);
+  box-shadow: 0 0 20px rgb(67, 63, 63);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 

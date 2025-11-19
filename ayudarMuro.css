@@ -28,7 +28,6 @@ body{
   display: flex;
   justify-content: center;
   gap: 40px;
-  flex-wrap: wrap;
   padding: 30px;
 }
 
@@ -67,9 +66,10 @@ body{
 }
 
 .btn {
-  display: block;
+  display: flex;
   background: #3c6ed8;
   color: white;
+  justify-content: center;
   text-align: center;
   padding: 12px;
   margin: 0 40px 20px;

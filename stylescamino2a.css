@@ -2,29 +2,28 @@ body {
   font-family: 'Georgia', serif;
   background: url(https://i0.wp.com/xn--lacompaialibredebraavos-yhc.com/wp-content/uploads/2017/12/game-of-thrones-red-keep-cr-hbo.jpg?fit=1024%2C768&ssl=1) no-repeat center center fixed;
   background-size: cover;
-  color: #f5e1a4; /* texto crema claro */
+  color: #f5e1a4; 
   margin: 0;
   padding: 0;
 }
 
-/* CABECERA */
+
 .header__inicio {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(0, 0, 0, 0.6); /* fondo negro semi-transparente */
-  color: #f5e1a4;
+  background: rgba(0, 0, 0, 0.6); 
   padding: 10px 15px;
   gap: 15px;
   height: 65px;
-  border-bottom: 2px solid rgba(255,255,255,0.1); /* borde sutil */
+  border-bottom: 2px solid rgba(255,255,255,0.1);
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
 }
 
 .header__inicio--img {
   width: 80px;
   border-radius: 10px;
-  border: 2px solid rgba(255,255,255,0.2); /* borde sutil crema */
+  border: 2px solid rgba(255,255,255,0.2); 
 }
 
 .header__inicio--titulo {
@@ -34,13 +33,13 @@ body {
   margin: 0;
 }
 
-/* CONTENEDOR DE TARJETAS */
+
 .contenedor {
   display: flex;
   justify-content: center;
 }
 
-/* TARJETAS DE ETAPAS */
+
 .contenedor-tarjetas {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -52,8 +51,8 @@ body {
 }
 
 .tarjeta {
-  background-color: rgba(0, 0, 0, 0.7); /* fondo oscuro semi-transparente */
-  border: 2px solid rgba(255,255,255,0.1); /* borde muy sutil */
+  background-color: rgba(0, 0, 0, 0.7); 
+  border: 2px solid rgba(255,255,255,0.1); 
   border-radius: 12px;
   padding: 20px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -63,7 +62,7 @@ body {
 
 .tarjeta:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 20px #f5e1a4; /* resaltar con dorado suave */
+  box-shadow: 0 0 20px #f5e1a4; 
 }
 
 .tarjeta img {
@@ -73,7 +72,7 @@ body {
 }
 
 .tarjeta h2 {
-  color: #f5e1a4; /* crema */
+  color: #f5e1a4; 
   margin-bottom: 8px;
   font-size: 1.3rem;
 }
@@ -81,17 +80,17 @@ body {
 .tarjeta p {
   font-size: 0.95rem;
   line-height: 1.4;
-  color: #f5e1a4; /* crema */
+  color: #f5e1a4; 
   margin: 0;
 }
 
-/* BOTONES FINALES */
+
 .botones-accion {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 15px;
-  background-color: rgba(0, 0, 0, 0.6); /* fondo negro semi-transparente */
+  background-color: rgba(0, 0, 0, 0.6);
   padding: 20px;
   border-top: 2px solid rgba(255,255,255,0.1);
 }
@@ -100,27 +99,27 @@ body {
   padding: 10px 20px;
   border-radius: 8px;
   text-decoration: none;
-  color: #f5e1a4; /* crema */
+  color: #f5e1a4; 
   font-weight: bold;
   transition: transform 0.2s, background-color 0.2s, color 0.2s;
   box-shadow: 0 0 8px rgba(0,0,0,0.4);
   font-size: 0.95rem;
-  background-color: #333; /* gris oscuro */
+  background-color: #333; 
 }
 
 .btn.izquierda,
 .btn.derecha {
-  background-color: #333; /* gris oscuro */
+  background-color: #333; 
 }
 
 .btn:hover {
   transform: scale(1.05);
-  background-color: #f5e1a4; /* dorado suave */
-  color: #000; /* texto negro al pasar el mouse */
+  background-color: #f5e1a4; 
+  color: #000; 
 }
 
 .eleccion {
   font-size: 1rem;
   font-weight: bold;
-  color: #f5e1a4; /* crema */
+  color: #f5e1a4; 
 }

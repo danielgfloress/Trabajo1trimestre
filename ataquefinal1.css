@@ -1,0 +1,145 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("https://wallpapercave.com/wp/wp2163829.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  backdrop-filter: brightness(35%);
+  font-family: 'Georgia', serif;
+  color: white;
+  min-height: 100vh;
+}
+.header__inicio {
+  background: rgba(0, 0, 0, 0.85);
+  padding: 20px;
+  border-bottom: 3px solid #c5a46d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.header__inicio--img {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid #c5a46d;
+}
+
+.header__inicio--titulo {
+  font-size: 2.2rem;
+  text-align: center;
+}
+.vidas-final {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 0 20px 0;
+  padding: 0 40px;
+}
+
+.columna-final {
+  width: 40%;
+  text-align: center;
+}
+
+.nombre {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.barra {
+  width: 100%;
+  height: 22px;
+  background: rgba(80, 0, 0, 0.5);
+  border: 2px solid #c5a46d;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.relleno {
+  height: 100%;
+  background: linear-gradient(90deg, #b40000, #ff2a2a);
+}
+
+.jon-life {
+  width: 45%;
+}
+
+.jaime-life {
+  width: 0% ;
+}
+
+.escena-final.nuevo-bloque {
+  width: 70%;
+  margin: 50px auto;
+  background: rgba(10, 10, 10, 0.85);
+  padding: 40px;
+  border-radius: 20px;
+  border: 3px solid #a88b54;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+.texto-lateral {
+  width: 100%;
+}
+
+.texto-lateral h2 {
+  color: #ffdd88;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.texto-lateral p {
+  font-size: 1.2rem;
+  margin-bottom: 12px;
+}
+
+.imagen-final {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.hero-img {
+  width: 70%;
+  max-width: 500px;
+  border: 3px solid #c5a46d;
+  border-radius: 12px;
+}
+
+.acciones-combate {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding-bottom: 60px;
+}
+
+.btn {
+  padding: 18px 35px;
+  text-decoration: none;
+  color: white;
+  border-radius: 12px;
+  font-size: 22px;
+  font-weight: bold;
+  border: 3px solid #c5a46d;
+  transition: 0.3s;
+  text-align: center;
+}
+
+.atacar {
+  background: #7a1f1f;
+}
+
+.atacar:hover {
+  background: #9c2727;
+  transform: scale(1.08);
+}

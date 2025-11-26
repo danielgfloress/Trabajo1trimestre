@@ -1,0 +1,118 @@
+
+body {
+    margin: 0;
+    background-image: url("https://blog.phonehouse.es/wp-content/uploads/2019/04/Juego-de-Tronos.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: brightness(40%);
+    color: #f5f5f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inicio__fondo {
+  width: 100%;
+  background-color: rgba(0,0,0,0.7);
+}
+
+.header__inicio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 20px;
+  gap: 20px;
+  height: 75px;
+}
+
+.foto {
+  width: 100px;
+  border-radius: 10px;
+}
+
+.header__inicio--titulo {
+  font-size: 2.5rem;
+  letter-spacing: 3px;
+  margin: 0;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.contenedor-tarjetas {
+  max-width: 900px;
+  width: 100%;
+}
+
+.tarjeta.final {
+  background-color: rgba(44, 44, 44, 0.9);
+  border: 2px solid #ff4c4c;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+  box-shadow: 0 0 20px #ff4c4c66;
+}
+
+.tarjeta.final img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.tarjeta.final h2 {
+  font-size: 1.8rem;
+  color: #ff6666;
+  margin-bottom: 10px;
+}
+
+.tarjeta.final p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.tarjeta.final h3 {
+  color: #ff0000;
+  font-size: 1.5rem;
+  margin-top: 15px;
+  text-shadow: 1px 1px 3px #000;
+}
+
+.botones-accion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  max-width: 600px;
+  margin-top: 20px;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-align: center;
+  flex: 1;
+  margin: 0 10px;
+  transition: 0.3s;
+  color: #f5f5f5;
+}
+
+.btn.izquierda {
+  background-color: #444;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #ff4444aa;
+}

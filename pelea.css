@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("https://wallpaper.forfun.com/fetch/f1/f1200ab83c29675dbe52b6213b5636e8.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  backdrop-filter: brightness(35%);
+  font-family: 'Georgia', serif;
+  color: white;
+  min-height: 100vh;
+}
+
+.header__inicio {
+  background: rgba(0,0,0,0.8);
+  padding: 20px;
+  border-bottom: 3px solid #c5a46d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.header__inicio--img {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid #c5a46d;
+}
+
+.header__inicio--titulo {
+  font-size: 2.2rem;
+}
+
+.combate-columnas {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.columna {
+  width: 40%;
+  text-align: center;
+}
+
+
+.nombre {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.barra {
+  width: 100%;
+  height: 22px;
+  background: rgba(80, 0, 0, 0.5);
+  border: 2px solid #c5a46d;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.relleno {
+  height: 100%;
+  background: linear-gradient(90deg, #b40000, #ff2a2a);
+}
+
+.full {
+  width: 100%;
+}
+
+.img-jon,
+.img-jaimie {
+  width: 100%;
+  height: 500px;
+  border-radius: 15px;
+  border: 2px solid #c5a46d;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.botones-centro {
+  margin-top: 40px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.btn {
+  padding: 12px 30px;
+  text-decoration: none;
+  color: white;
+  border-radius: 12px;
+  font-size: 20px;
+  font-weight: bold;
+  border: 3px solid #c5a46d;
+  transition: 0.3s;
+}
+
+.atacar {
+  background: #7a1f1f;
+}
+
+.atacar:hover {
+  background: #8f2020;
+  transform: scale(1.1);
+}
+
+.defender {
+  background: #2f4f4f;
+}
+
+.defender:hover {
+  background: #3c5f5f;
+  transform: scale(1.1);
+}

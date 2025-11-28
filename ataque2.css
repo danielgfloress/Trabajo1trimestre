@@ -1,96 +1,96 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url("https://wallpapercave.com/wp/wp2163829.jpg");
+  background-image: url("https://e1.pxfuel.com/desktop-wallpaper/628/225/desktop-wallpaper-game-of-thrones-art-game-of-thrones-pc.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   backdrop-filter: brightness(35%);
   font-family: 'Georgia', serif;
-  color: white;
+  color: rgb(255,255,255);
   min-height: 100vh;
 }
 
 .header__inicio {
-  background: rgba(0,0,0,0.85);
-  padding: 20px;
-  border-bottom: 3px solid #c5a46d;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  background: black;
+  color: white;
+  padding: 20px;
   gap: 20px;
+  height: 75px;
 }
-
-.header__inicio--img {
-  width: 90px;
-  height: 90px;
-  object-fit: cover;
+.foto {
+  width: 100px;
   border-radius: 10px;
-  border: 2px solid #c5a46d;
 }
-
 .header__inicio--titulo {
-  font-size: 2.2rem;
+  font-size: 2.5rem;
+  letter-spacing: 3px;
 }
 
-.vidas-final {
+.combate-columnas {
   display: flex;
   justify-content: space-around;
-  margin: 40px 0 20px 0;
+  margin: 40px 0;
   padding: 0 40px;
 }
 
-.columna-final {
+.combatiente {
   width: 40%;
   text-align: center;
 }
 
-.nombre {
+.combatiente__nombre {
   font-size: 1.5rem;
   margin-bottom: 10px;
-  display: block;
 }
 
-.barra {
+.combatiente__barra {
   width: 100%;
   height: 22px;
-  background: rgba(80, 0, 0, 0.5);
-  border: 2px solid #c5a46d;
+  background: rgba(80,0,0,0.5);
+  border: 2px solid rgb(197,164,109);
   border-radius: 10px;
   overflow: hidden;
   margin-bottom: 20px;
 }
 
-.relleno {
+.combatiente__relleno {
   height: 100%;
-  background: linear-gradient(90deg, #b40000, #ff2a2a);
+  background: linear-gradient(90deg, rgb(180,0,0), rgb(255,42,42));
 }
 
-.jon-life {
+.combatiente__relleno--jon {
   width: 45%;
 }
 
-.jaime-life {
+.combatiente__relleno--jaime {
   width: 25%;
 }
 
-.escena-final {
+.combatiente__img {
+  width: 100%;
+  height: 450px;
+  border-radius: 12px;
+  border: 2px solid rgb(197,164,109);
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.narracion {
   width: 60%;
   margin: 40px auto;
-  background: rgba(0, 0, 0, 0.75);
+  background: rgba(0,0,0,0.75);
   padding: 30px;
-  border-radius: 15px;
-  border: 2px solid #c5a46d;
+  border: 2px solid rgb(197,164,109);
+  border-radius: 12px;
   text-align: center;
 }
 
-.escena-final h2 {
-  color: #ffcc66;
-  margin-bottom: 15px;
-}
-
-.acciones-combate {
-  margin-top: 30px;
+.botones-centro {
+  margin-top: 40px;
   display: flex;
   justify-content: center;
   gap: 40px;
@@ -98,31 +98,30 @@ body {
 }
 
 .btn {
-  padding: 18px 35px;
+  padding: 16px 35px;
   text-decoration: none;
-  color: white;
+  color: rgb(255,255,255);
   border-radius: 12px;
   font-size: 22px;
   font-weight: bold;
-  border: 3px solid #c5a46d;
+  border: 3px solid rgb(197,164,109);
   transition: 0.3s;
-  text-align: center;
 }
 
-.atacar {
-  background: #7a1f1f;
+.btn--atacar {
+  background: rgb(122,31,31);
 }
 
-.atacar:hover {
-  background: #9c2727;
-  transform: scale(1.08);
+.btn--atacar:hover {
+  background: rgb(143,32,32);
+  transform: scale(1.1);
 }
 
-.defender {
-  background: #2f4f4f;
+.btn--defender {
+  background: rgb(50,70,70);
 }
 
-.defender:hover {
-  background: #3f5f5f;
-  transform: scale(1.08);
+.btn--defender:hover {
+  background: rgb(65,90,90);
+  transform: scale(1.1);
 }

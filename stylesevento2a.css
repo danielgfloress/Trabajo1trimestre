@@ -1,5 +1,5 @@
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: Arial, sans-serif;
   background: url('https://lossietereinos.com/wp-content/uploads/2019/05/TYRION-juego-de-tronos-8x05.jpg') no-repeat center center fixed;
   background-size: cover;
   color: #fff8e1;
@@ -8,24 +8,24 @@ body {
 }
 
 .header__inicio {
-  text-align: center;
-  background-color: rgba(0,0,0,0.7);
-  padding: 25px;
-  border-bottom: 3px solid #ff5500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: black;
+  color: white;
+  padding: 20px;
+  gap: 20px;
+  height: 75px;
 }
-
-.header__inicio--img {
-  width: 120px;
-  border-radius: 50%;
+.foto {
+  width: 100px;
+  border-radius: 10px;
 }
-
 .header__inicio--titulo {
-  font-size: 2rem;
-  color: #ff5500;
-  margin-top: 10px;
+  font-size: 2.5rem;
+  letter-spacing: 3px;
 }
-
-.historia-evento {
+.historia {
   max-width: 800px;
   margin: 40px auto;
   padding: 25px;
@@ -35,12 +35,16 @@ body {
   text-align: center;
 }
 
-.historia-evento h2 {
+.historia__titulo {
   color: #ffcc00;
   margin-bottom: 15px;
 }
 
-.galeria-evento {
+.historia__texto {
+  line-height: 1.5;
+}
+
+.galeria {
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -48,7 +52,7 @@ body {
   margin: 20px auto;
 }
 
-.evento {
+.galeria__item {
   display: flex;
   align-items: center;
   background-color: rgba(50,0,0,0.8);
@@ -58,25 +62,29 @@ body {
   box-shadow: 0 0 15px rgba(0,0,0,0.6);
 }
 
-.evento:nth-child(even) {
+.galeria__item--invertido {
   flex-direction: row-reverse;
 }
 
-.evento img {
+.galeria__img {
   width: 45%;
   border-radius: 10px;
 }
 
-.evento div {
+.galeria__info {
   width: 55%;
 }
 
-.evento h3 {
+.galeria__subtitulo {
   margin-top: 0;
   color: #ff5500;
 }
 
-.botones-accion {
+.galeria__descripcion {
+  line-height: 1.5;
+}
+
+.acciones {
   display: flex;
   justify-content: center;
   gap: 20px;
@@ -84,28 +92,28 @@ body {
   align-items: center;
 }
 
-.btn {
+.acciones__btn {
   padding: 12px 25px;
   border-radius: 10px;
   text-decoration: none;
-  color: #fff;
+  color: white;
   font-weight: bold;
   transition: transform 0.2s;
 }
 
-.btn.izquierda {
+.acciones__btn--ataque {
   background-color: #ff5500;
 }
 
-.btn.derecha {
+.acciones__btn--retirada {
   background-color: #44434a;
 }
 
-.btn:hover {
+.acciones__btn:hover {
   transform: scale(1.1);
 }
 
-.eleccion {
+.acciones__texto {
   font-weight: bold;
   color: #ffcc00;
 }

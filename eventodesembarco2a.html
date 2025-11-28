@@ -9,49 +9,53 @@
 <body>
 
   <header class="header__inicio">
-    <img class="header__inicio--img" src="https://www.aceroymagia.com/Images/articulo/figura-trono-de-hierro-master-craft/01-figura-trono-de-hierro-master-craft.jpg" alt="Logo">
-    <h1 class="header__inicio--titulo">¡El ataque ha comenzado!</h1>
-  </header>
+            <img class="foto"
+                src="https://www.aceroymagia.com/Images/articulo/figura-trono-de-hierro-master-craft/01-figura-trono-de-hierro-master-craft.jpg"
+                alt="Logo">
+            <h1 class="header__inicio--titulo">EL ATAQUE HA COMENZADO</h1>
+        </header>
 
-  <section class="historia-evento">
-    <h2>🔥 Caos en las calles</h2>
-    <p>
-      Los dragones sobrevuelan Desembarco mientras las casas leales intentan defender la ciudad.  
+  <section class="historia">
+    <h2 class="historia__titulo">Caos en las calles</h2>
+    <p class="historia__texto">
+      Los dragones sobrevuelan Desembarco mientras las casas leales intentan defender la ciudad.
       Las llamas consumen los edificios y el humo cubre el cielo. Cada decisión puede significar vida o muerte.
     </p>
   </section>
 
-  <section class="galeria-evento">
-    <div class="evento">
-      <img src="https://hips.hearstapps.com/hmg-prod/images/juego-de-tronos-drogon-daenerys-essos-1558361874.jpg?resize=640:*" alt="Dragones atacando">
-      <div>
-        <h3>🐉 Dragones</h3>
-        <p>Los dragones de Daenerys lanzan fuego sobre los muros de la ciudad.</p>
+  <section class="galeria">
+    
+    <div class="galeria__item">
+      <img class="galeria__img" src="https://hips.hearstapps.com/hmg-prod/images/juego-de-tronos-drogon-daenerys-essos-1558361874.jpg?resize=640:*" alt="Dragones atacando">
+      <div class="galeria__info">
+        <h3 class="galeria__subtitulo">Dragones</h3>
+        <p class="galeria__descripcion">Los dragones de Daenerys lanzan fuego sobre los muros de la ciudad.</p>
       </div>
     </div>
 
-    <div class="evento">
-      <img src="https://lossietereinos.com/wp-content/uploads/2015/06/stannis-510.jpg" alt="Soldados en combate">
-      <div>
-        <h3>⚔️ Soldados en combate</h3>
-        <p>Los soldados se enfrentan en las calles, defendiendo cada esquina con su vida.</p>
+    <div class="galeria__item galeria__item--invertido">
+      <img class="galeria__img" src="https://lossietereinos.com/wp-content/uploads/2015/06/stannis-510.jpg" alt="Soldados en combate">
+      <div class="galeria__info">
+        <h3 class="galeria__subtitulo">Soldados en combate</h3>
+        <p class="galeria__descripcion">Los soldados se enfrentan en las calles, defendiendo cada esquina con su vida.</p>
       </div>
     </div>
 
-    <div class="evento">
-      <img src="https://objetos.estaticos-marca.com/assets/multimedia/imagenes/2019/08/04/15649146356142.jpg" alt="Incendios">
-      <div>
-        <h3>🔥 Incendios</h3>
-        <p>Las llamas consumen casas y barricadas, dejando Desembarco en ruinas.</p>
+    <div class="galeria__item">
+      <img class="galeria__img" src="https://objetos.estaticos-marca.com/assets/multimedia/imagenes/2019/08/04/15649146356142.jpg" alt="Incendios">
+      <div class="galeria__info">
+        <h3 class="galeria__subtitulo">Incendios</h3>
+        <p class="galeria__descripcion">Las llamas consumen casas y barricadas, dejando Desembarco en ruinas.</p>
       </div>
     </div>
+
   </section>
 
-  <div class="botones-accion">
-    <a href="pelea.html" class="btn izquierda">⚔️ Continuar el ataque</a>
-    <div class="eleccion">⬅️ ¿Qué decides hacer? ➡️</div>
-    <a href="finalmalo.html" class="btn derecha">🏰 Retirarse para protegerse</a>
-  </div>
+  <section class="acciones">
+    <a href="pelea.html" class="acciones__btn acciones__btn--ataque">Continuar el ataque</a>
+    <p class="acciones__texto">Qué decides hacer</p>
+    <a href="finalmalo.html" class="acciones__btn acciones__btn--retirada">Retirarse para protegerse</a>
+  </section>
 
 </body>
 </html>

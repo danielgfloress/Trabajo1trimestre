@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: 'Georgia', serif;
+  font-family: Georgia, serif;
   background-image: url("https://wallpaperaccess.com/full/4217075.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -8,7 +8,7 @@ body {
   color: #e2e2e2;
 }
 
-.header__inicio {
+.inicio {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -21,23 +21,19 @@ body {
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
 }
 
-.header__inicio--img {
+.inicio__img {
   width: 100px;
   border-radius: 10px;
   border: 2px solid #8a8f93;
 }
 
-.header__inicio--titulo {
+.inicio__titulo {
   font-size: 40px;
   letter-spacing: 3px;
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
 }
 
 .cuadro {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   width: 80%;
   margin: 30px auto;
   padding: 25px;
@@ -48,20 +44,19 @@ body {
   text-align: center;
 }
 
-.cuadro h2 {
+.cuadro__titulo {
   color: #b89a67;
   margin-bottom: 10px;
   font-size: 26px;
 }
 
-.cuadro p {
+.cuadro__texto {
   font-size: 22px;
   margin: 0;
   color: #f0f0f0;
 }
 
-
-.contenedor-peligros {
+.peligros {
   width: 85%;
   margin: 40px auto;
   display: grid;
@@ -85,32 +80,30 @@ body {
   transform: scale(1.03);
 }
 
-.peligro img {
+.peligro__img {
   width: 100%;
   height: 180px;
   object-fit: cover;
   border-bottom: 2px solid #5a5f66;
 }
 
-.peligro h3 {
+.peligro__titulo {
   margin: 15px 0;
   font-size: 19px;
   color: #e0e0e0;
   text-align: center;
 }
 
-
-.botones-accion {
+.acciones {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 85%;
   margin: 50px auto;
   gap: 30px;
-  
 }
 
-.btn {
+.acciones__btn {
   max-width: 250px;
   padding: 20px;
   font-size: 18px;
@@ -118,12 +111,12 @@ body {
   border: 2px solid #5a5f66;
   color: #f5f5f5;
   border-radius: 15px;
+  text-decoration: none;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.5s ease;
-  text-decoration: none;
 }
 
-.btn:hover {
+.acciones__btn:hover {
   background: #b89a67;
   border-color: #d6b87a;
   color: #1a1a1a;
@@ -132,10 +125,6 @@ body {
 
 
 .eleccion {
-<<<<<<< HEAD
-=======
-
->>>>>>> final1
   display: flex;
   background-color: rgba(0, 0, 0, 0.6);
   border: 2px solid #d4af37;
@@ -149,19 +138,14 @@ body {
   box-shadow: 0 0 10px rgba(212, 175, 55, 0.4);
   align-items: center;
   height: 50px;
-<<<<<<< HEAD
-=======
-
-  background: rgba(30, 33, 40, 0.9);
   padding: 15px 25px;
+  background: rgba(30, 33, 40, 0.9);
   border: 2px solid #5a5f66;
   border-radius: 10px;
   color: #f5f5f5;
   font-size: 22px;
   text-align: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  white-space: nowrap;
-  
 
->>>>>>> final1
+
 }

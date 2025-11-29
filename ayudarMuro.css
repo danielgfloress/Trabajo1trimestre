@@ -1,11 +1,12 @@
 body{
     margin: 0;
-    background-image: url("https://media.revistagq.com/photos/5ce7c7e79d80fc18ede33d84/master/pass/daenerys.jpg");
+    background-image: url("https://fotografias.antena3.com/clipping/cmsimages01/2015/11/09/A26E9373-6C8C-420F-971A-27C72B88934F/98.jpg?crop=1024,576,x0,y57&width=1900&height=1069&optimize=high&format=webply");
     background-repeat: no-repeat;
     background-size: cover;
+    backdrop-filter: brightness(40%);
     height: 100vh;
-    font-family: "Book Antiqua", "Palatino Linotype", Palatino, serif ;
 }
+
 .header__inicio {
   display: flex;
   align-items: center;
@@ -21,30 +22,30 @@ body{
   border-radius: 10px;
 }
 .header__inicio--titulo {
-  font-size: 50px;
+  font-size: 40px;
 }
 .opciones {
   display: flex;
   justify-content: center;
   gap: 40px;
-  flex-wrap: wrap;
   padding: 30px;
 }
 
 .tarjeta {
   width: 330px;
-  background: rgba(35, 35, 35, 0.75);
-  color: antiquewhite;
+  background: rgb(0, 0, 0);
+  color: white;
   border-radius: 18px;
+  margin-top: 130px;
   overflow: hidden;
-  border: 2px solid #b38b33;
-  box-shadow: 0 0 20px rgb(67, 63, 63);
+  border: 2px solid #00ffff;
+  box-shadow: 0 0 20px rgba(0,0,0,0.7);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .tarjeta:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 30px rgba(179,139,51,0.7);
+  box-shadow: 0 0 30px rgba(0, 223, 253, 0.7);
 }
 
 .tarjeta img {
@@ -56,28 +57,29 @@ body{
 .tarjeta h2 {
   text-align: center;
   margin: 15px 0 5px;
-  font-size: 1.5rem;
+  font-size: 24px;
 }
 
 .tarjeta p {
   text-align: center;
   margin: 0 15px 20px;
-  opacity: 0.9;
 }
+
 .btn {
-  display: block;
-  background: #b38b33;
-  color: #1a1a1a;
+  display: flex;
+  background: #3c6ed8;
+  color: white;
+  justify-content: center;
   text-align: center;
   padding: 12px;
   margin: 0 40px 20px;
   border-radius: 10px;
   text-decoration: none;
   font-weight: bold;
-  transition: background 0.3s, transform 0.3s;
+  transition: 0.3s, transform 0.3s;
 }
 
 .btn:hover {
-  background: #d4af37;
+  background: #0888ba;
   transform: translateY(-5px);
 }

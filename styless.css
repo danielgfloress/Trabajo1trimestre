@@ -3,11 +3,17 @@ body{
     background-image: url("https://images.pexels.com/photos/2083177/pexels-photo-2083177.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
+<<<<<<< HEAD
     backdrop-filter: brightness(40%);
     height: 100%;
 }
 .inicio__fondo{
     height: 100vh;
+=======
+}
+.inicio__fondo{
+    background-color: rgba(87, 86, 86, 0.612);
+>>>>>>> final3
 }
 .header__inicio {
   display: flex;
@@ -31,7 +37,10 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+<<<<<<< HEAD
     gap: 50px;
+=======
+>>>>>>> final3
     padding: 10px;
 }
 .texto__introducción{
@@ -47,10 +56,15 @@ body{
     border-radius: 10px;
 }
 .mapa{
+<<<<<<< HEAD
     width: 39vh;
     margin-top: 10px;
     margin-left: 40px;
 
+=======
+    height: 450px;
+    padding: 20px;
+>>>>>>> final3
 }
 .distribuir__espacio--textos{
     display: flex;
@@ -58,7 +72,10 @@ body{
     justify-content: center;
     align-items: center;
     padding: 30px 10px 10px 10px;
+<<<<<<< HEAD
     
+=======
+>>>>>>> final3
 }
 .boton__comenzar {
   display: flex;
@@ -75,16 +92,28 @@ body{
   padding: 20px;
   font-size: 20px;
   background: #7a1f1f;
+<<<<<<< HEAD
   border: 3px solid rgb(212, 30, 30);
+=======
+  border: 3px solid #a22;
+>>>>>>> final3
   color: #fff;
   border-radius: 15px;
   cursor: pointer;
   text-decoration: none;
+<<<<<<< HEAD
   transition: background-color 0.3s ease, transform 0.5s ease;
 }
 
 .boton__comenzar--texto:hover {
   background-color: rgb(120, 16, 16);
+=======
+  
+}
+
+.boton__comenzar--texto:hover {
+  background: #a22;
+>>>>>>> final3
   transform: translateY(-5px);
 }
 .texto__introducción--animo{
